@@ -14,6 +14,12 @@ The algorithm repeatedly takes the first element from the unsorted region and pl
 region shifting larger elements to the right to make room. Pretty intuitive :)
 
 It is valuable in scenarios where data is nearly sorted or arriving in a stream.
+
+Complexities:
+Best time: O(n) when the array is already sorted, the inner loop never executes
+Average time: O(n^2)
+Worst time: O(n^2) when the array is in reverse order and the maximum number of shifts are made
+Space: O(1) constant memory of key and j
 """
 
 input_list = [5,3,2,8]
