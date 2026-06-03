@@ -102,12 +102,6 @@ class Solution():
                         nums[slow_pointer], nums[i] = nums[i], nums[slow_pointer]
                     slow_pointer += 1
 
-
-
-
-
-
-
 case_1 = [0]
 case_2 = [1]
 case_3 = [1,0,0,0,0]
